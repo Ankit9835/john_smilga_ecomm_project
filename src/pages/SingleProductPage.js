@@ -42,7 +42,7 @@ const SingleProductPage = () => {
   if (error) {
     return <Error />
   }
-  console.log(product)
+  //console.log(product)
   const {
     name,
     price,
@@ -54,7 +54,7 @@ const SingleProductPage = () => {
     company,
     images,
   } = product
-  console.log(product)
+  //console.log(product)
   return (
     <>
       <Wrapper>
