@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { useFilterContext } from '../context/filter_context'
 import { getUniqueValues, formatPrice } from '../utils/helpers'
 import { FaCheck } from 'react-icons/fa'
-import { formatNumber } from 'fusioncharts'
+// import { formatNumber } from './fusioncharts'
 
 const Filters = () => {
   const {

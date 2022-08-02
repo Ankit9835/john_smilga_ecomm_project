@@ -7,6 +7,7 @@ import Error from './ErrorPage'
 import Checkouts from './CheckoutPage'
 import PrivateRoute from './PrivateRoute'
 import SharedLayout from './SharedLayout'
+import AuthWrapper from './AuthWrapper'
 
 export {
   Home,
@@ -18,4 +19,5 @@ export {
   Checkouts,
   PrivateRoute,
   SharedLayout,
+  AuthWrapper,
 }
